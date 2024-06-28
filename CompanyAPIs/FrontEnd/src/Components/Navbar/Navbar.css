@@ -1,0 +1,17 @@
+.navbar .nav-link {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.navbar .nav-link:hover {
+  color: #fd743c !important;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  color: #fd743c !important;
+}

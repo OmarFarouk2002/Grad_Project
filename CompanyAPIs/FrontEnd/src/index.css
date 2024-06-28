@@ -1,0 +1,74 @@
+body {
+  /* margin: 0; */
+  /* padding-top: 3rem; */
+  background-color: #f1f1f14f !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fd743c !important;
+}
+.text-main {
+  color: #fd743c;
+}
+.bg-main {
+  background-color: #fd743c;
+}
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(81, 89, 153, 0.2);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn-outline-custom {
+
+  border: 2px solid #fd743c !important;
+  box-shadow: inset 0 0 0 0 #fd743c;
+  transition: ease-out 0.8s;
+  color: #fd743c !important;
+  overflow: hidden;
+}
+
+.btn-custom {
+  border: 2px solid #fd743c !important;
+  box-shadow: inset 0 0 0 0 #fd743c;
+  transition: ease-out 0.8s;
+  color: #fff !important;
+  overflow: hidden;
+}
+
+.btn-custom:hover {
+  color: #fff;
+
+  box-shadow: inset 700px 0 0 0 #fd743c;
+}
+
+.btn-outline-custom:hover {
+  box-shadow: inset 700px 0 0 0 #fd743c;
+
+  color: white !important;
+}
+
+.payment .card-body {
+  padding: 0 !important;
+}
+.payment .card {
+  border: none !important;
+  background-color: transparent !important;
+}
