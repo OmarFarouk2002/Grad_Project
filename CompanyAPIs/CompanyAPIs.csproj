@@ -29,6 +29,7 @@
 
   <ItemGroup>
     <Folder Include="FrontEnd\" />
+    <Folder Include="Documentation\" />
   </ItemGroup>
 
 </Project>
